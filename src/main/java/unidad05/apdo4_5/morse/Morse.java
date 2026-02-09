@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class Morse {
 
-    private HashMap<String, String> codigoMorse = new HashMap<>();
+    private Map<String, String> codigoMorse = new HashMap<>();
 
     public Morse() {
         inicializar();
@@ -51,7 +51,6 @@ public class Morse {
         codigoMorse.put("y", "-.--");
         codigoMorse.put("z", "--..");
         codigoMorse.put(" ", " ");
-        codigoMorse.put(" ", "1");
     }
 
     public void cifrar(String texto) {
