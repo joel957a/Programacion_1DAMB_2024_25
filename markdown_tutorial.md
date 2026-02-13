@@ -92,10 +92,27 @@ _**esto es una muestra**_
 
 ### Tachado
 
-El tachado forma parte de la **sintaxis extendida** de markdown. Para tachar un texto basta con rodearlo con virgulilla doble `~~`:
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
+
+Para tachar un texto basta con rodearlo con virgulilla doble `~~`:
 
 ~~Las vacunas provocan autismo.~~ Las vacunas salvan vidas. 
 
+### Resaltar
+
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
+
+El resaltado de un texto es una función poco común y poco procesadores Markdown permiten su uso. El resultado se ve <mark>así</mark>.
+
+Para ello rodeamos la palabra o frase con dos signos igual (==) a cada lado.
+
+Lo más importante es ==su ubicación==.
+
+El resultado se vería así:
+
+Lo más importante es <mark>su ubicación</mark>.
+
+ℹ️ Si se necesita este formato y este doble igual no funciona, se puede usar el elemento `mark` de HTML.
 
 ## Línea horizontal
 
@@ -169,7 +186,7 @@ Aunque se puede usar un número distinto para cada uno, lo mejor es utilizar sie
 
 ### Lista de checkboxes
 
-:information_source: Las listas de checkboxes forman parte de la **sintaxis extendida** de markdown.
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
 
 Se puede representar una lista de tareas usando *checkboxes* que representamos con corchetes `[ ]` para checks sin pulsar y `[x]` para los marcados: 
 
@@ -209,7 +226,7 @@ Para el caso anterior:
 
 ## Emojies
 
-:information_source: Los emojies sforman parte de la **sintaxis extendida** de markdown.
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
 
 Podemos incluir emojies en nuestros documentos markdown copiándolos de la lista de emojies de nuestro sistema operativo y pegándolos directamente en el código markdown. También podemos copiarlos de la [Emojipedia](https://emojipedia.org/).
 
@@ -238,13 +255,14 @@ Te recomiendo la guía de [`markdown`](https://www.markdownguide.org).
 
 ### Enlaces a una misma página
 
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
+
 Podemos crear enlaces que vayan a una parte de la misma página de la siguiente forma:
 
 [encabezados](#encabezados)
 
 Previamente hemos tenido que incluir una etiqueta con el mismo nombre en el título correspondiente.
 
-**NOTA**: los enlaces a encabezados forman parte de la **sintaxis extendida** de markdown.
 
 ### Enlaces parametrizados o de referencia
 
@@ -279,7 +297,7 @@ Te recomiendo la web de **[Refactoring Guru][linkRG]** para aprender sobre patro
 
 ### Notas a pie de página
 
-Las notas a pie de página forman parte de la **sintaxis extendida** de markdown.
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
 
 Un ejemplo puede ser este[^1] y, como hemos visto antes, podemos poner nuestra propia etiqueta de esta forma[^notaPie1].
 
@@ -411,7 +429,7 @@ System.out.printf(
 
 ## Listas de definiciones
 
-Las listas de definiciones forman parte de la **sintaxis extendida** de markdown.
+ℹ️ Esta funcionalidad forma parte de la **sintaxis extendida** de markdown. 
 
 En HTML:
 
