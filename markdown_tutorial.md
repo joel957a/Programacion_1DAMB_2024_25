@@ -242,10 +242,20 @@ Si queremos que el enlace se abra en otra ventana o pestaña:
 
 [IES Celia Viñas](https://iescelia.org "¡Entra e infórmate!"){:target="_blank"}
 
-También se puede poner una URL o dirección de correo de forma que automáticamente se conviertan en enlace introduciéndolas entre `<` y `>`:
+En general, la mayoría de los procesadores de Markdown, cuando detectan una URL o dirección de correo entre el texto a mostrar, automáticamente la convierten en un enlace:
 
-<https://www.markdownguide.org>  
+https://iescelia.org  
+pepe@micorreo.es
+
+Si no es así, podemos forzarlo introduciéndolas entre `<` y `>`:
+
+<https://iescelia.org>  
 <pepe@micorreo.es>
+
+Pero si queremos el efecto contrario, es decir, que no sean un enlace, podemos poner esa dirección como código (entre comillas simples invertidas):
+
+`https://iescelia.org`  
+`pepe@micorreo.es`
 
 Los enlaces se pueden formatear en negrita y cursiva e incluso mostrarlos en formato código:
 
